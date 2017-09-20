@@ -1,0 +1,8 @@
+{
+	bool is_present;
+	start 'konyky-burbonyky' -> is_present;
+	if (is_present):
+		start 'pesyky-durbesyky' -> is_present;
+	return is_present;
+
+}
