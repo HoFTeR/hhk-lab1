@@ -1,0 +1,13 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+RewriteCond %{http_host} ^(.*).nearthefire.zzz.com.ua [nc]
+RewriteRule ^(.*)$ http://nearthefire.zzz.com.ua/$1 [L,R=301]
+</IfModule>
+
+# END WordPress

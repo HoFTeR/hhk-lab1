@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Allow: /wp-content/themes/wowblog/img/
+Allow: /wp-content/themes/wowblog/img/*.jpg
+Allow: /wp-content/themes/wowblog/img/*.png
+Allow: https://static.doubleclick.net/instream/ad_status.js
+Allow: https://googleads.g.doubleclick.net/pagead/id
+
+Sitemap: http://nearthefire.zzz.com.ua/sitemap.xml
